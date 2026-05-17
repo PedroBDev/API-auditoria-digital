@@ -1,0 +1,42 @@
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database files
+database/db.sqlite3
+*.sqlite3
+
+# Package metadata
+*.egg-info/
+pip-wheel-metadata/
+
+# Environment files
+.env
+.env.*
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and build files
+*.log
+build/
+dist/
+
+# Test cache
+.pytest_cache/
+.mypy_cache/
+
+# Others
+*.swp
